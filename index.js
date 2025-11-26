@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
@@ -26,6 +25,7 @@ app.get('/', (req, res) => {
         border-radius: 1rem;
         max-width: 400px;
         width: 100%;
+        overflow: hidden;
       }
       .name {
         font-size: 1.8rem;
